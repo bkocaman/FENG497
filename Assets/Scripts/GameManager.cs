@@ -21,4 +21,14 @@ public class GameManager : MonoBehaviour {
 	{
 		UnityEngine.SceneManagement.SceneManager.LoadScene(0);
 	}
+
+	void LateUpdate()
+	{
+		if (ScoreManager.coin == 2)
+		{
+			GameOver();
+		}
+	}
+
+	
 }
