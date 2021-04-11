@@ -8,6 +8,8 @@ TagManager:
   - Platform
   - Slider
   - Platform_2
+  - coin
+  - DESp
   layers:
   - Default
   - TransparentFX
