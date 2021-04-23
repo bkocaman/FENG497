@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\berkkocaman\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -58,6 +58,9 @@
             </e>
           </e>
         </e>
+        <e p="Deneme.txt" t="Include" />
+        <e p="Dissapear.cs" t="Include" />
+        <e p="DRop.cs" t="Include" />
         <e p="SampleScenes" t="Include">
           <e p="Menu" t="Include">
             <e p="Scripts" t="Include">
@@ -80,14 +83,19 @@
         <e p="Scripts" t="Include">
           <e p="BackGroundController.cs" t="Include" />
           <e p="CameraMovement.cs" t="Include" />
-          <e p="DropPlatform.cs" t="Include" />
+          <e p="Deneme.cs" t="Include" />
           <e p="Fade.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="LevelManager.cs" t="Include" />
+          <e p="NewBehaviourScript.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
+          <e p="Push_Down.cs" t="Include" />
           <e p="ScoreManager.cs" t="Include" />
           <e p="SliderController.cs" t="Include" />
+          <e p="Spin.cs" t="Include" />
+          <e p="Spin45Deg.cs" t="Include" />
           <e p="TextureController.cs" t="Include" />
+          <e p="UP_Down.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
           <e p="2D" t="Include">

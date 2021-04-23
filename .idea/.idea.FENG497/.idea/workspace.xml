@@ -1,8 +1,14 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13458d76-aaf0-4123-b4a0-52e923d0e9d5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FENG497/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FENG497/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FENG497/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FENG497/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CoinSon .prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CoinSon .prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level2 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level2 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zeynep_Gönder.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Zeynep_Gönder.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,12 +21,17 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Dissapear.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoinUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DropPlatform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dissapear.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
@@ -54,6 +65,14 @@
       <option name="presentableId" value="Default" />
       <updated>1617438357418</updated>
       <workItem from="1617438360458" duration="1022000" />
+      <workItem from="1618129183860" duration="3694000" />
+      <workItem from="1618166109944" duration="631000" />
+      <workItem from="1618168229700" duration="1554000" />
+      <workItem from="1618171631701" duration="432000" />
+      <workItem from="1618235207231" duration="969000" />
+      <workItem from="1618844630964" duration="375000" />
+      <workItem from="1619194771073" duration="129000" />
+      <workItem from="1619194949451" duration="21000" />
     </task>
     <servers />
   </component>
@@ -65,7 +84,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
