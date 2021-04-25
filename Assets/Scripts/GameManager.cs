@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour {
     public Animator panelGameOverAnim;
     public Text gameScore;
     public Text menuScore;
-    public float maxDistanceBeforeLose = 5f;
+    public float maxDistanceBeforeLose = 10f;
     private float distance;
     public Transform target;
     public float startLimmit = 5f;

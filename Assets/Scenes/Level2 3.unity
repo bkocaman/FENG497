@@ -2779,7 +2779,7 @@ MonoBehaviour:
   panelGameOverAnim: {fileID: 1248446478}
   gameScore: {fileID: 1309579371}
   menuScore: {fileID: 1313817819}
-  maxDistanceBeforeLose: 5
+  maxDistanceBeforeLose: 10
   target: {fileID: 570449476}
   startLimmit: 5
 --- !u!1001 &1523645106
