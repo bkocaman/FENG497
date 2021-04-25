@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour {
     public void GameOver()
     {
         panelGameOverAnim.SetTrigger("Open");
-        GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().enabled = false;
+       // GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().enabled = false;
         menuScore.text = gameScore.text;
         gameScore.gameObject.SetActive(false);
     }
