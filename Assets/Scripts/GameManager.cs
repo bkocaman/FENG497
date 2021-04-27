@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour {
 
     void LateUpdate()
     {
-        if (ScoreManager.coin == 3)
+        if (ScoreManager.coin == 6)
         {
             GameOver();
         }
