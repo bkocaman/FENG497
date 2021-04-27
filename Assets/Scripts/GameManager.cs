@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour {
        // GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().enabled = false;
         menuScore.text = gameScore.text;
         gameScore.gameObject.SetActive(false);
+        
     }
 
     public void PlayAgain()

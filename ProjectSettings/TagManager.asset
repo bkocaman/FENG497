@@ -10,6 +10,7 @@ TagManager:
   - Platform_2
   - coin
   - DESp
+  - BG
   layers:
   - Default
   - TransparentFX

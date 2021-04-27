@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="13458d76-aaf0-4123-b4a0-52e923d0e9d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FENG497/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FENG497/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVEL1 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVEL1 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +71,8 @@
       <workItem from="1619194771073" duration="129000" />
       <workItem from="1619194949451" duration="21000" />
       <workItem from="1619370626473" duration="2418000" />
-      <workItem from="1619376310815" duration="331000" />
+      <workItem from="1619376310815" duration="1000000" />
+      <workItem from="1619551830724" duration="1461000" />
     </task>
     <servers />
   </component>
