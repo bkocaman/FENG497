@@ -3558,11 +3558,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1935552473844034437, guid: 4d542a2dea084e240b776d6f3c6c571c,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 11133b5745a560f4880ae2decb966e9c, type: 2}
     - target: {fileID: 2365256532063846253, guid: 4d542a2dea084e240b776d6f3c6c571c,
         type: 3}
       propertyPath: m_Offset.x
@@ -3586,7 +3581,7 @@ PrefabInstance:
     - target: {fileID: 5051004162742356147, guid: 4d542a2dea084e240b776d6f3c6c571c,
         type: 3}
       propertyPath: m_Name
-      value: platform jump
+      value: platform 1 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6104825430237566012, guid: 4d542a2dea084e240b776d6f3c6c571c,
         type: 3}
