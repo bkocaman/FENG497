@@ -11,6 +11,7 @@ TagManager:
   - coin
   - DESp
   - BG
+  - plat1batu
   layers:
   - Default
   - TransparentFX
