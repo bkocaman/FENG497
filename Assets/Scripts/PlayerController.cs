@@ -110,10 +110,28 @@ public class PlayerController : MonoBehaviour
 			Destroy(collision.gameObject);
 			ScoreManager.coin++;
 		}
+		if (collision.gameObject.tag == "JumpBoost")
+		{
+			jumpForce = 1000f;
+			
+		}
+		if (collision.gameObject.tag == "Platform")
+		{
+			jumpForce = 650f;
+			
+		}
 	}
 
 	private void SliderUpdate(int value)
     {
 		slide.value += value;
     }
-}
+
+	
+		
+		
+		
+
+	}
+	
+

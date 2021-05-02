@@ -12,6 +12,7 @@ TagManager:
   - DESp
   - BG
   - plat1batu
+  - JumpBoost
   layers:
   - Default
   - TransparentFX

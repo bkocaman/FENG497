@@ -82,6 +82,9 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="BackGroundController.cs" t="Include" />
+          <e p="batu.cs" t="Include" />
+          <e p="Batutwofall.cs" t="Include" />
+          <e p="boost.cs" t="Include" />
           <e p="CameraMovement.cs" t="Include" />
           <e p="Deneme.cs" t="Include" />
           <e p="Fade.cs" t="Include" />
