@@ -604,6 +604,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7330474863556815600, guid: 57377e4a17905e34fa9bdfd04c1a8ece,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7330474863849756152, guid: 57377e4a17905e34fa9bdfd04c1a8ece,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -612,7 +617,7 @@ PrefabInstance:
     - target: {fileID: 7330474863849756152, guid: 57377e4a17905e34fa9bdfd04c1a8ece,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 23.729998
+      value: 25.36
       objectReference: {fileID: 0}
     - target: {fileID: 7330474863849756152, guid: 57377e4a17905e34fa9bdfd04c1a8ece,
         type: 3}
@@ -699,6 +704,11 @@ PrefabInstance:
       propertyPath: forceJumpLimit
       value: 1700
       objectReference: {fileID: 0}
+    - target: {fileID: 7330474864303501087, guid: 57377e4a17905e34fa9bdfd04c1a8ece,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7330474864459197910, guid: 57377e4a17905e34fa9bdfd04c1a8ece,
         type: 3}
       propertyPath: m_IsActive
@@ -711,6 +721,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57377e4a17905e34fa9bdfd04c1a8ece, type: 3}
+--- !u!1 &209517649 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7330474864007124897, guid: 57377e4a17905e34fa9bdfd04c1a8ece,
+    type: 3}
+  m_PrefabInstance: {fileID: 209517648}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &251613413
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -813,7 +829,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 923bc4d8f99cae44b841d7e8793c0486, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textScore: {fileID: 0}
+  coin: 0
+  textScore: {fileID: 2052987139}
   current_score: 0
 --- !u!4 &275352994
 Transform:
@@ -1433,6 +1450,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.36334237
       objectReference: {fileID: 0}
+    - target: {fileID: 4724072926056715013, guid: 5accdb747650f564db239c57d8ada0b9,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4724072926056715015, guid: 5accdb747650f564db239c57d8ada0b9,
         type: 3}
       propertyPath: m_Name
@@ -1964,6 +1986,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.6374694
       objectReference: {fileID: 0}
+    - target: {fileID: 4724072926056715013, guid: 5accdb747650f564db239c57d8ada0b9,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4724072926056715015, guid: 5accdb747650f564db239c57d8ada0b9,
         type: 3}
       propertyPath: m_Name
@@ -2047,6 +2074,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 0.36334237
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724072926056715013, guid: 5accdb747650f564db239c57d8ada0b9,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4724072926056715015, guid: 5accdb747650f564db239c57d8ada0b9,
         type: 3}
@@ -2200,6 +2232,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6374694
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724072926056715013, guid: 5accdb747650f564db239c57d8ada0b9,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4724072926056715015, guid: 5accdb747650f564db239c57d8ada0b9,
         type: 3}
@@ -2478,12 +2515,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d3fb26f62ccde14a80597fa54d6fa02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelGameOverAnim: {fileID: 0}
-  gameScore: {fileID: 0}
-  menuScore: {fileID: 0}
+  panelGameOverAnim: {fileID: 1723341524}
+  gameScore: {fileID: 1829748166}
+  menuScore: {fileID: 1829748166}
   maxDistanceBeforeLose: 10
   target: {fileID: 1702972503}
   startLimmit: 5
+  ScoreManager: {fileID: 275352992}
+  Player: {fileID: 209517649}
 --- !u!1001 &1523645106
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3701,6 +3740,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6374694
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724072926056715013, guid: 5accdb747650f564db239c57d8ada0b9,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4724072926056715015, guid: 5accdb747650f564db239c57d8ada0b9,
         type: 3}

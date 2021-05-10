@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
@@ -13,15 +14,18 @@ public class GameManager : MonoBehaviour {
     public Transform target;
     public float startLimmit = 5f;
     private Vector3 targetPosition;
+    public GameObject ScoreManager;
+    public GameObject Player;
 	
 	
 
     public void GameOver()
     {
         panelGameOverAnim.SetTrigger("Open");
-       // GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().enabled = false;
+        //GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().enabled = false;
         menuScore.text = gameScore.text;
         gameScore.gameObject.SetActive(false);
+        
         
     }
 
@@ -29,10 +33,15 @@ public class GameManager : MonoBehaviour {
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(1);
     }
+    
+    public void NextLevel()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
 
     void LateUpdate()
     {
-        if (ScoreManager.coin == 6)
+        if (ScoreManager.GetComponent<ScoreManager>().coin == 4)
         {
             GameOver();
         }

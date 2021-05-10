@@ -9,26 +9,26 @@ public class PlayerController : MonoBehaviour
 	public GameObject Player;
 	private  Slider slide;
 
-	public float moveForce = 365f;
+	public float moveForce = 650f;
 	public float maxSpeed = 5f;
-	public float jumpForce = 650f;
+	public float jumpForce = 1500f;
 	public float bounceFactor = 1.25f;
-	public float forceJumpLimit = 1700f;
-	public float HorizontalJumpFactor = 100f;
+	//public float forceJumpLimit = 1f;
+	//public float HorizontalJumpFactor = 1f;
 
 	private Rigidbody2D rb2D;
 	private Animation anim;
 
-	public ParticleSystem forceJumpEffect;
-	public ParticleSystem moveParticle;
+	//public ParticleSystem forceJumpEffect;
+	//public ParticleSystem moveParticle;
 
 	private float velocity;
 	private float h;
 
 	private void Start()
 	{
-		forceJumpEffect.Stop(); // Initially stop The Animation //
-		moveParticle.Stop();
+		//forceJumpEffect.Stop(); // Initially stop The Animation //
+		//moveParticle.Stop();
 		anim = this.transform.GetChild(1).GetComponent<Animation>();
 		anim.wrapMode = WrapMode.Once;
 		rb2D = GetComponent<Rigidbody2D>();
@@ -72,8 +72,8 @@ public class PlayerController : MonoBehaviour
 		}
 		else if (velocity < 0)
 		{
-			forceJumpEffect.Stop();
-			moveParticle.Stop();
+			//forceJumpEffect.Stop();
+			//moveParticle.Stop();
 		}
 	}
 
@@ -87,29 +87,31 @@ public class PlayerController : MonoBehaviour
 	{
 		if(slide.value == 100)
         {
-			rb2D.AddForce(Vector2.up * ((jumpForce * 3) + Mathf.Abs(rb2D.velocity.y) * HorizontalJumpFactor));
+			rb2D.AddForce(Vector2.up * ((jumpForce * 3) + Mathf.Abs(rb2D.velocity.y) * 1));
 			slide.value = 0;
-			moveParticle.Stop();
-			forceJumpEffect.Play();
+			//moveParticle.Stop();
+			//forceJumpEffect.Play();
 		}
 		else
         {
-			rb2D.AddForce(Vector2.up * (jumpForce + Mathf.Abs(rb2D.velocity.y) * HorizontalJumpFactor));
+			rb2D.AddForce(Vector2.up * (jumpForce + Mathf.Abs(rb2D.velocity.y) * 1));
 			//SliderUpdate(10);
-			forceJumpEffect.Stop();
-			moveParticle.Play();
+			//forceJumpEffect.Stop();
+			//moveParticle.Play();
+		}
+	}
+	void OnTriggerEnter2D(Collider2D collision)
+	{
+		if (collision.gameObject.tag == "coin")
+		{
+			Destroy(collision.gameObject);
+			scoreManager.GetComponent<ScoreManager>().coin++;
 		}
 	}
 
 	void OnCollisionEnter2D(Collision2D collision)
 	{
-
-
-		if (collision.gameObject.tag == "coin")
-		{
-			Destroy(collision.gameObject);
-			ScoreManager.coin++;
-		}
+		
 		if (collision.gameObject.tag == "JumpBoost")
 		{
 			jumpForce = 1000f;

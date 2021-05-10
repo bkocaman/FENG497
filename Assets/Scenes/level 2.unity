@@ -582,6 +582,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7330474863556815600, guid: 57377e4a17905e34fa9bdfd04c1a8ece,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7330474863849756152, guid: 57377e4a17905e34fa9bdfd04c1a8ece,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -652,6 +657,26 @@ PrefabInstance:
       propertyPath: m_GravityScale
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 7330474864007124958, guid: 57377e4a17905e34fa9bdfd04c1a8ece,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0012701519
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330474864007124958, guid: 57377e4a17905e34fa9bdfd04c1a8ece,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.5241191
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330474864007124958, guid: 57377e4a17905e34fa9bdfd04c1a8ece,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.12971584
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330474864007124958, guid: 57377e4a17905e34fa9bdfd04c1a8ece,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.1127617
+      objectReference: {fileID: 0}
     - target: {fileID: 7330474864007124959, guid: 57377e4a17905e34fa9bdfd04c1a8ece,
         type: 3}
       propertyPath: jumpForce
@@ -670,12 +695,22 @@ PrefabInstance:
     - target: {fileID: 7330474864007124959, guid: 57377e4a17905e34fa9bdfd04c1a8ece,
         type: 3}
       propertyPath: HorizontalJumpFactor
-      value: 100
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7330474864007124959, guid: 57377e4a17905e34fa9bdfd04c1a8ece,
         type: 3}
       propertyPath: forceJumpLimit
-      value: 1700
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330474864007124959, guid: 57377e4a17905e34fa9bdfd04c1a8ece,
+        type: 3}
+      propertyPath: scoreManager
+      value: 
+      objectReference: {fileID: 275352993}
+    - target: {fileID: 7330474864303501087, guid: 57377e4a17905e34fa9bdfd04c1a8ece,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7330474864459197910, guid: 57377e4a17905e34fa9bdfd04c1a8ece,
         type: 3}
@@ -718,6 +753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 923bc4d8f99cae44b841d7e8793c0486, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coin: 0
   textScore: {fileID: 0}
   current_score: 0
 --- !u!4 &275352994
@@ -1697,6 +1733,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.36334237
       objectReference: {fileID: 0}
+    - target: {fileID: 4724072926056715013, guid: 5accdb747650f564db239c57d8ada0b9,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4724072926056715015, guid: 5accdb747650f564db239c57d8ada0b9,
         type: 3}
       propertyPath: m_Name
@@ -2360,6 +2401,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.6374694
       objectReference: {fileID: 0}
+    - target: {fileID: 4724072926056715013, guid: 5accdb747650f564db239c57d8ada0b9,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4724072926056715015, guid: 5accdb747650f564db239c57d8ada0b9,
         type: 3}
       propertyPath: m_Name
@@ -2433,6 +2479,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6374694
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724072926056715013, guid: 5accdb747650f564db239c57d8ada0b9,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4724072926056715015, guid: 5accdb747650f564db239c57d8ada0b9,
         type: 3}
@@ -2606,6 +2657,8 @@ MonoBehaviour:
   maxDistanceBeforeLose: 10
   target: {fileID: 1702972503}
   startLimmit: 5
+  ScoreManager: {fileID: 0}
+  Player: {fileID: 0}
 --- !u!1001 &1523645106
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3382,6 +3435,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6374694
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724072926056715013, guid: 5accdb747650f564db239c57d8ada0b9,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4724072926056715015, guid: 5accdb747650f564db239c57d8ada0b9,
         type: 3}

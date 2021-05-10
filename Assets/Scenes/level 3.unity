@@ -711,6 +711,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 923bc4d8f99cae44b841d7e8793c0486, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coin: 0
   textScore: {fileID: 1309579371}
   current_score: 0
 --- !u!4 &275352994
@@ -1288,6 +1289,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.36334237
       objectReference: {fileID: 0}
+    - target: {fileID: 4724072926056715013, guid: 5accdb747650f564db239c57d8ada0b9,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4724072926056715015, guid: 5accdb747650f564db239c57d8ada0b9,
         type: 3}
       propertyPath: m_Name
@@ -1617,6 +1623,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.36334237
       objectReference: {fileID: 0}
+    - target: {fileID: 4724072926056715013, guid: 5accdb747650f564db239c57d8ada0b9,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4724072926056715015, guid: 5accdb747650f564db239c57d8ada0b9,
         type: 3}
       propertyPath: m_Name
@@ -1796,6 +1807,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d55df2e54bbe16841ac21e6f65bb4263, type: 3}
+--- !u!1 &986366932 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7330474864007124897, guid: 57377e4a17905e34fa9bdfd04c1a8ece,
+    type: 3}
+  m_PrefabInstance: {fileID: 209517648}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1020584113
 GameObject:
   m_ObjectHideFlags: 0
@@ -2566,6 +2583,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.6374694
       objectReference: {fileID: 0}
+    - target: {fileID: 4724072926056715013, guid: 5accdb747650f564db239c57d8ada0b9,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4724072926056715015, guid: 5accdb747650f564db239c57d8ada0b9,
         type: 3}
       propertyPath: m_Name
@@ -2761,6 +2783,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.36334237
       objectReference: {fileID: 0}
+    - target: {fileID: 4724072926056715013, guid: 5accdb747650f564db239c57d8ada0b9,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4724072926056715015, guid: 5accdb747650f564db239c57d8ada0b9,
         type: 3}
       propertyPath: m_Name
@@ -2945,6 +2972,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6374694
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724072926056715013, guid: 5accdb747650f564db239c57d8ada0b9,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4724072926056715015, guid: 5accdb747650f564db239c57d8ada0b9,
         type: 3}
@@ -3229,6 +3261,8 @@ MonoBehaviour:
   maxDistanceBeforeLose: 10
   target: {fileID: 1702972503}
   startLimmit: 5
+  ScoreManager: {fileID: 275352992}
+  Player: {fileID: 986366932}
 --- !u!1001 &1523645106
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3949,6 +3983,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6374694
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724072926056715013, guid: 5accdb747650f564db239c57d8ada0b9,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4724072926056715015, guid: 5accdb747650f564db239c57d8ada0b9,
         type: 3}

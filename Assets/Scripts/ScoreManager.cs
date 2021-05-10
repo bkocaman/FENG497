@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
-	public static int coin;
+	public int coin;
 	public Text textScore;
 	public int current_score;
 
